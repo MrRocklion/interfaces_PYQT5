@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>410</width>
+    <height>630</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">*{
+font-family: century gothic;
+}
+QWidget{
+
+background-image: url(&quot;C:/Users/Usuario/Documents/UNIVERSIDAD/PYTHON/INTERFACES_GRAFICAS/REGISTRO_USUARIO/images/fondo.png&quot;);
+}
+QFrame#contenedor{
+background:#1d1d1d;
+border-radius:15px;
+}
+QToolButton{
+background:white;
+border-radius:15px;
+}
+QPushButton{
+background:#2d89ef;
+color:white;
+border-radius:15px;
+font-size:24px;
+font-weight:bold;
+}
+
+QPushButton:hover{
+background:#2b5797;
+color:white;
+border-radius:15px;
+font-weight: bold;
+font-size:24px;
+font-weight:bold;
+}
+QLabel{
+font-weight:bold;
+color:white;
+font-size:24px;
+}
+QPushButton#volver{
+background:#e5090d;
+color:white;
+border-radius:15px;
+font-size:24px;
+font-weight:bold;
+}
+
+QPushButton:hover#volver{
+background:#22943c;
+color:white;
+border-radius:15px;
+font-weight: bold;
+font-size:24px;
+font-weight:bold;
+}
+QTextEdit{
+background:#D0D3D4;
+color:black;
+border-radius:15px;
+font-weight: bold;
+font-size:20px;
+font-weight:bold;
+}</string>
+  </property>
+  <widget class="QFrame" name="contenedor">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>30</y>
+     <width>351</width>
+     <height>581</height>
+    </rect>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <widget class="QToolButton" name="toolButton">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>10</y>
+      <width>81</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>...</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>images/leon.png</normaloff>images/leon.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>100</width>
+      <height>100</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>160</y>
+      <width>241</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>CHANGE PASSWORD</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>240</y>
+      <width>141</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>PASSWORD:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>320</y>
+      <width>221</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>REPEAT-PASSWORD</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="crear">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>470</y>
+      <width>151</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>CAMBIAR</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="volver">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>520</y>
+      <width>151</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>VOLVER</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="txt1">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>290</y>
+      <width>281</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="txt2">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>370</y>
+      <width>281</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

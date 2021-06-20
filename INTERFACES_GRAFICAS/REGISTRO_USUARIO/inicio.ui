@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Register</class>
+ <widget class="QMainWindow" name="Register">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>410</width>
+    <height>630</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Register</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">*{
+font-family: century gothic;
+}
+QWidget{
+
+background-image: url(&quot;C:/Users/Usuario/Documents/UNIVERSIDAD/PYTHON/INTERFACES_GRAFICAS/REGISTRO_USUARIO/images/fondo.png&quot;);
+}
+QFrame#contenedor{
+background:#1d1d1d;
+border-radius:15px;
+}
+QToolButton{
+background:white;
+border-radius:15px;
+}
+QPushButton{
+background:#2d89ef;
+color:white;
+border-radius:15px;
+font-size:24px;
+font-weight:bold;
+}
+
+QPushButton:hover{
+background:#2b5797;
+color:white;
+border-radius:15px;
+font-weight: bold;
+font-size:24px;
+font-weight:bold;
+}
+QLabel{
+font-weight:bold;
+color:white;
+font-size:24px;
+}
+QPushButton#salir{
+background:#e5090d;
+color:white;
+border-radius:15px;
+font-size:24px;
+font-weight:bold;
+}
+
+QPushButton:hover#salir{
+background:#22943c;
+color:white;
+border-radius:15px;
+font-weight: bold;
+font-size:24px;
+font-weight:bold;
+}</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QFrame" name="contenedor">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>20</y>
+      <width>371</width>
+      <height>591</height>
+     </rect>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QToolButton" name="toolButton">
+     <property name="geometry">
+      <rect>
+       <x>140</x>
+       <y>10</y>
+       <width>91</width>
+       <height>91</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>images/leon.png</normaloff>images/leon.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>100</width>
+       <height>100</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="crear">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>200</y>
+       <width>251</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>CREAR CUENTA</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>150</y>
+       <width>161</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>BIENVENIDO</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="eliminar">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>250</y>
+       <width>251</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>ELIMINAR CUENTA</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="cambiar">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>300</y>
+       <width>251</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>CAMBIAR PASSWORD</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="revisar">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>350</y>
+       <width>251</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>REVISAR CUENTAS</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="salir">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>400</y>
+       <width>251</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>SALIR</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
