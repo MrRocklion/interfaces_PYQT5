@@ -1,4 +1,6 @@
 // librerias
+// ESTE PROYECTO FUE PROBADO EN UN ARDUINO MEGA SIN EMBARGO PUEDES AJUSTAR LOS  PINES
+// DEPENDIENDO DE LA PLACA QUE USES 
 #include <Servo.h>
 //variables de los pines digitales
 int led1 =  52;
